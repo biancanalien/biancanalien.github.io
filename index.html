@@ -1,8 +1,170 @@
-<html>
-    <head>
-        <title>Bianca Nalien page</title>
-    </head>
-    <body>
-        <h1>Hello there!</h1>
-    </body>
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="uft-8" />
+    <title>Bianca Nalien</title>
+
+    <script src="https://kit.fontawesome.com/94562850b6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <style>
+        html {
+            font-family: Graphik, Arial, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            padding-left: 5%;
+            color: #2f2f39;
+        }
+
+        ::selection {
+            background-color: #c76d81;
+        }
+
+        h2,
+        h3 {
+            text-transform: capitalize;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        .intro {
+            height: 40vh;
+            flex-direction: row;
+            text-align: left;
+            padding: 100px 0;
+        }
+
+        .intro h2 {
+            text-transform: none;
+        }
+
+        .intro .contact_list {
+            display: flex;
+
+        }
+
+        .intro .contact_list .contact_item {
+            font-size: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+
+        .intro .contact_list .contact_item a em {
+            color: #2f2f39;
+        }
+
+        .intro .contact_list .contact_item a em:hover {
+            color: #c76d81;
+        }
+
+        .topic_list {
+            width: fit-content;
+            border-bottom: 5px solid #c76d81;
+        }
+
+        .topic_item {
+            margin: 4% 0 0 5%;
+            width: 100vh;
+        }
+
+        .tags_list {
+            display: flex;
+        }
+
+        .tags_list .tag_item {
+            border: 2px solid #c76d81;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 0px;
+            margin-right: 10px;
+        }
+    </style>
+    <header class="intro">
+        <h2>Hi, I'm <span class="name">Bianca Nalien</span></h2>
+        <h2>And I love to solve people's real problems</h2>
+        <nav class="contact_list">
+            <div class="contact_item">
+                <a href="https://github.com/biancanalien" target="_blank" rel="noopener noreferrer"><em
+                        class="fab fa-github"></em></a>
+            </div>
+            <div class="contact_item">
+                <a href="https://www.linkedin.com/in/biancanalien/" target="_blank" rel="noopener noreferrer"><em
+                        class="fab fa-linkedin-in"></em></a>
+            </div>
+            <div class="contact_item">
+                <a href="https://www.hackerrank.com/biancanalien" target="_blank" rel="noopener noreferrer"><em
+                        class="fab fa-hackerrank"></em></a>
+            </div>
+            <div class="contact_item">
+                <a href="https://speakerdeck.com/c/programming" target="_blank" rel="noopener noreferrer"><em
+                        class="fas fa-microphone"></em></a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <h2 class="topic_list">Side Projects</h2>
+        <div class="topic_item">
+            <h3>Combine interns and teams</h3>
+            <p>App to generate a match between teams and interns considering the team's chosen of each intern and
+                intern's chosen of each team.</p>
+            <div class="tags_list">
+                <p class="tag_item">Node.js</p>
+                <p class="tag_item">JavaScript</p>
+                <p class="tag_item">CSS</p>
+                <p class="tag_item">HTML</p>
+            </div>
+        </div>
+        <div class="topic_item">
+            <h3>Reminder english expressions</h3>
+            <p>App to help you remind the new expressions and vocabularies learned in English class.</p>
+            <div class="tags_list">
+                <p class="tag_item">Golang</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="topic_list">Community</h2>
+        <div class="topic_item">
+            <h3>Digital Girls</h3>
+            <p>Event designed to show all the different areas of technology and teach the first steps of software
+                development for girls in fundamental and high school.
+
+                The purpose of this workshop is to enchant girls by developing software and to show them that everyone
+                is able to learn how to do it.
+            </p>
+            <div class="tags_list">
+                <p class="tag_item">Co-founder</p>
+                <p class="tag_item">Speaker</p>
+            </div>
+        </div>
+        <div class="topic_item">
+            <h3>Tech For Girls Challenge</h3>
+            <p>Bootcamps about backend and frontend development, git, scrum and agility, UX and UI etc. designed to
+                empower women developers who are just starting on technology area.</p>
+            <div class="tags_list">
+                <p class="tag_item">Speaker</p>
+            </div>
+        </div>
+        <div class="topic_item">
+            <h3>Dependency manager training</h3>
+            <p>Dependency manager training using Npm</p>
+            <div class="tags_list">
+                <p class="tag_item">Speaker</p>
+            </div>
+        </div>
+        <div class="topic_item">
+            <h3>Talk about visibility of LGBTQ+</h3>
+            <p>Talk to share knowledge about gender, sexuality and the importance of pride and
+                visibility of the LGBTQ+ community</p>
+            <div class="tags_list">
+                <p class="tag_item">Speaker</p>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
